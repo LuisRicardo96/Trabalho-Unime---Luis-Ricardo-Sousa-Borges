@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "SweetTalk";
+  src: url("../font/SweetTalk.ttf");
+}
+@font-face {
+  font-family: "Schoolwork";
+  src: url("../font/Schoolwork-Regular.ttf");
+}
+
+div {
+  box-sizing: border-box;
+}
+#inicio {
+  margin: auto;
+}
+
+.pagina {
+  width: 1000px;
+  margin: auto;
+  color: #f39810;
+  padding: 50px;
+  border: #000000;
+}
+
+.mrg50B {
+  margin-bottom: 50px;
+}
+.topo {
+  text-align: center;
+  font-family: "Schoolwork";
+  font-size: 10rem;
+}
+.menu {
+  text-align: center;
+  font-family: "SweetTalk";
+  font-size: 1.5rem;
+}
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  width: 215px;
+}
+.menu ul li:hover {
+  background-color: #617954;
+  transition: 0.5s;
+}
+a:link {
+  color: #0000ff;
+}
+a:visited {
+  color: #000000;
+}
+a:hover {
+  color: #f5f0f0;
+}
+
+.atual {
+  text-decoration: underline !important;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 0.9rem;
+}
+#inicio {
+  text-align: center;
+}
+
+#Descrição {
+  text-align: center;
+}
+#perguntas {
+  text-align: justify;
+  line-height: 1.5;
+}
+.foto-principal {
+  border: 5px #ffffff groove;
+  width: 250px;
+  margin-bottom: 25px;
+}
+#tabela {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  background-color: #fbff07ee;
+  margin-bottom: 15px;
+}
+#sabor1 {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0d438;
+  transition: 0.5s;
+  margin-bottom: 25px;
+}
+#sabor2 {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0d438;
+  transition: 0.5s;
+  margin-bottom: 25px;
+}
+#sabor3 {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0d438;
+  transition: 0.5s;
+  margin-bottom: 25px;
+}
+#centro {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  margin-bottom: 25px;
+}
+#valor {
+  text-align: center;
+  margin: auto;
+  width: 100px;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3ebbc;
+  transition: 0.5s;
+  margin-bottom: 25px;
+}
+#cardapio {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0d438;
+  transition: 0.5s;
+  margin-bottom: 25px;
+}
+#total {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f07238;
+  transition: 0.5s;
+  margin-bottom: 25px;
+}
+
+body {
+  background-image: url("../img/pizzabacktoback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
